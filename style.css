@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: linear-gradient(rgb(35, 214, 254), rgb(19, 197, 140));
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+
+}
+
+.box{
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.align-center{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.align-center{
+    font-size: 30px;
+}
+
+.align-center{
+    text-decoration: none;
+    cursor: pointer;
+}
+.registration{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.registration h2{
+    text-transform: capitalize;
+}
+
+
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+form input{
+    border: none;
+    border-bottom: 1px solid #302f2f;
+    padding-bottom: 5px;
+
+}
+.chexk-box{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.chexk-box p{ 
+    font-weight: 600;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+ background: linear-gradient(rgb(35, 214, 254), rgb(19, 197, 140));
+}
+
+.links{
+    color: rgba(0, 255, 255, 0.865);
+    font-weight: 600;
+}
